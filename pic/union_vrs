@@ -1,160 +1,214 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T08:02:15.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="4y0CyrJqsLVmW942y8tj" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T08:16:51.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="4MEjwH2s2y70MtWYWuar" version="16.6.2" type="github">
   <diagram id="Uv13Z96FheGHAcUwnn_8" name="union">
     <mxGraphModel dx="1866" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="32tl-jol9LDixvjBe_lJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="20" width="390" height="460" as="geometry" />
+          <mxGeometry x="30" y="360" width="390" height="460" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-12" value="&lt;font face=&quot;helvetica&quot;&gt;合集、视频遍历查询&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="80" width="140" height="30" as="geometry" />
+          <mxGeometry x="155" y="420" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-13" value="&lt;font face=&quot;helvetica&quot;&gt;过滤无效媒资&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="160" width="140" height="30" as="geometry" />
+          <mxGeometry x="155" y="500" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-15" value="基础媒资库同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="90" height="30" as="geometry" />
+          <mxGeometry x="40" y="370" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-16" value="&lt;font face=&quot;helvetica&quot;&gt;内容封装&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="240" width="140" height="30" as="geometry" />
+          <mxGeometry x="155" y="580" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-17" value="&lt;font face=&quot;helvetica&quot;&gt;redis缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="330" width="140" height="30" as="geometry" />
+          <mxGeometry x="70" y="670" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-18" value="&lt;font face=&quot;helvetica&quot;&gt;vrs表入库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="330" width="140" height="30" as="geometry" />
+          <mxGeometry x="260" y="670" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-19" value="&lt;font face=&quot;helvetica&quot;&gt;状态缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="420" width="140" height="30" as="geometry" />
+          <mxGeometry x="155" y="760" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-12" target="32tl-jol9LDixvjBe_lJ-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="220" as="sourcePoint" />
-            <mxPoint x="320" y="170" as="targetPoint" />
+            <mxPoint x="270" y="560" as="sourcePoint" />
+            <mxPoint x="320" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-13" target="32tl-jol9LDixvjBe_lJ-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="235" y="120" as="sourcePoint" />
-            <mxPoint x="225" y="205" as="targetPoint" />
+            <mxPoint x="235" y="460" as="sourcePoint" />
+            <mxPoint x="225" y="545" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-16" target="32tl-jol9LDixvjBe_lJ-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="255" y="140" as="sourcePoint" />
-            <mxPoint x="255" y="170" as="targetPoint" />
+            <mxPoint x="255" y="480" as="sourcePoint" />
+            <mxPoint x="255" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-16" target="32tl-jol9LDixvjBe_lJ-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="235" y="305" as="sourcePoint" />
-            <mxPoint x="150" y="340" as="targetPoint" />
+            <mxPoint x="235" y="645" as="sourcePoint" />
+            <mxPoint x="150" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-17" target="32tl-jol9LDixvjBe_lJ-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="245" y="315" as="sourcePoint" />
-            <mxPoint x="160" y="350" as="targetPoint" />
+            <mxPoint x="245" y="655" as="sourcePoint" />
+            <mxPoint x="160" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-18" target="32tl-jol9LDixvjBe_lJ-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="255" y="325" as="sourcePoint" />
-            <mxPoint x="170" y="360" as="targetPoint" />
+            <mxPoint x="255" y="665" as="sourcePoint" />
+            <mxPoint x="170" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="20" width="410" height="600" as="geometry" />
+          <mxGeometry x="520" y="360" width="410" height="600" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-28" value="策略媒资库同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="30" width="90" height="30" as="geometry" />
+          <mxGeometry x="540" y="370" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-29" value="&lt;font face=&quot;helvetica&quot;&gt;有效媒体遍历&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="70" width="140" height="30" as="geometry" />
+          <mxGeometry x="650" y="410" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-30" value="&lt;font face=&quot;helvetica&quot;&gt;无变更媒体过滤&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="140" width="140" height="30" as="geometry" />
+          <mxGeometry x="650" y="480" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-31" value="&lt;font face=&quot;helvetica&quot;&gt;白名单媒资&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="210" width="110" height="30" as="geometry" />
+          <mxGeometry x="535" y="550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-33" value="&lt;font face=&quot;helvetica&quot;&gt;媒资输出策略&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="665" y="210" width="110" height="30" as="geometry" />
+          <mxGeometry x="665" y="550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-34" value="&lt;font face=&quot;helvetica&quot;&gt;内容封装&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="280" width="140" height="30" as="geometry" />
+          <mxGeometry x="650" y="620" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-35" value="&lt;font face=&quot;helvetica&quot;&gt;lm表入库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="350" width="140" height="30" as="geometry" />
+          <mxGeometry x="650" y="690" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-36" value="&lt;font face=&quot;helvetica&quot;&gt;全量分页数据(redis)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="500" width="140" height="30" as="geometry" />
+          <mxGeometry x="550" y="840" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-37" value="&lt;font face=&quot;helvetica&quot;&gt;清除失效数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="420" width="140" height="30" as="geometry" />
+          <mxGeometry x="650" y="760" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-38" value="&lt;font face=&quot;helvetica&quot;&gt;黑名单过滤&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="795" y="210" width="110" height="30" as="geometry" />
+          <mxGeometry x="795" y="550" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-39" value="&lt;font face=&quot;helvetica&quot;&gt;状态缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="570" width="140" height="30" as="geometry" />
+          <mxGeometry x="650" y="910" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="719.5" y="100" as="sourcePoint" />
-            <mxPoint x="720" y="140" as="targetPoint" />
+            <mxPoint x="719.5" y="440" as="sourcePoint" />
+            <mxPoint x="720" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-30" target="32tl-jol9LDixvjBe_lJ-33">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="729.5" y="110" as="sourcePoint" />
-            <mxPoint x="730" y="150" as="targetPoint" />
+            <mxPoint x="729.5" y="450" as="sourcePoint" />
+            <mxPoint x="730" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-33" target="32tl-jol9LDixvjBe_lJ-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="180" as="sourcePoint" />
-            <mxPoint x="730" y="220" as="targetPoint" />
+            <mxPoint x="730" y="520" as="sourcePoint" />
+            <mxPoint x="730" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-34" target="32tl-jol9LDixvjBe_lJ-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="740" y="190" as="sourcePoint" />
-            <mxPoint x="740" y="230" as="targetPoint" />
+            <mxPoint x="740" y="530" as="sourcePoint" />
+            <mxPoint x="740" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="32tl-jol9LDixvjBe_lJ-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="380" as="sourcePoint" />
-            <mxPoint x="750" y="240" as="targetPoint" />
+            <mxPoint x="720" y="720" as="sourcePoint" />
+            <mxPoint x="750" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-37" target="32tl-jol9LDixvjBe_lJ-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="210" as="sourcePoint" />
-            <mxPoint x="760" y="250" as="targetPoint" />
+            <mxPoint x="760" y="550" as="sourcePoint" />
+            <mxPoint x="760" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-36" target="32tl-jol9LDixvjBe_lJ-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="770" y="220" as="sourcePoint" />
-            <mxPoint x="770" y="260" as="targetPoint" />
+            <mxPoint x="770" y="560" as="sourcePoint" />
+            <mxPoint x="770" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-48" value="&lt;font face=&quot;helvetica&quot;&gt;增量分页数据(redis)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="500" width="140" height="30" as="geometry" />
+          <mxGeometry x="750" y="840" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="32tl-jol9LDixvjBe_lJ-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="720" y="450" as="sourcePoint" />
-            <mxPoint x="630" y="510" as="targetPoint" />
+            <mxPoint x="720" y="790" as="sourcePoint" />
+            <mxPoint x="630" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-48" target="32tl-jol9LDixvjBe_lJ-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="460" as="sourcePoint" />
-            <mxPoint x="630" y="510" as="targetPoint" />
+            <mxPoint x="730" y="800" as="sourcePoint" />
+            <mxPoint x="630" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="830" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-53" value="媒资库输出整体流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-54" value="&lt;font face=&quot;helvetica&quot;&gt;基础媒资库同步&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-55" value="&lt;font face=&quot;helvetica&quot;&gt;媒体媒资输出策略过滤&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-56" value="&lt;font face=&quot;helvetica&quot;&gt;媒体媒资数据表&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-57" value="&lt;font face=&quot;helvetica&quot;&gt;媒体媒资分页缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-58" value="&lt;font face=&quot;helvetica&quot;&gt;视频推荐算法服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-59" value="&lt;font face=&quot;helvetica&quot;&gt;媒体媒资同步接口&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-54" target="32tl-jol9LDixvjBe_lJ-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="250" as="sourcePoint" />
+            <mxPoint x="910" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-61" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-55" target="32tl-jol9LDixvjBe_lJ-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="105" as="sourcePoint" />
+            <mxPoint x="260" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-55" target="32tl-jol9LDixvjBe_lJ-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="115" as="sourcePoint" />
+            <mxPoint x="270" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-56" target="32tl-jol9LDixvjBe_lJ-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="125" as="sourcePoint" />
+            <mxPoint x="280" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-57" target="32tl-jol9LDixvjBe_lJ-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="55" as="sourcePoint" />
+            <mxPoint x="655" y="55" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
