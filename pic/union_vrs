@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T08:28:46.181Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="a4Yf4_KidMA2SkhIM9Ej" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T09:02:44.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="LkpXtoU4oRIMZMFgaNPd" version="16.6.2" type="github">
   <diagram id="Uv13Z96FheGHAcUwnn_8" name="union">
     <mxGraphModel dx="1333" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
         <mxCell id="32tl-jol9LDixvjBe_lJ-35" value="&lt;font face=&quot;helvetica&quot;&gt;lm表入库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="690" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="32tl-jol9LDixvjBe_lJ-36" value="&lt;font face=&quot;helvetica&quot;&gt;全量分页数据(redis)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="32tl-jol9LDixvjBe_lJ-36" value="&lt;font face=&quot;helvetica&quot;&gt;缓存媒体全量媒资(redis)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="840" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-37" value="&lt;font face=&quot;helvetica&quot;&gt;清除失效数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -142,7 +142,7 @@
             <mxPoint x="770" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="32tl-jol9LDixvjBe_lJ-48" value="&lt;font face=&quot;helvetica&quot;&gt;增量分页数据(redis)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="32tl-jol9LDixvjBe_lJ-48" value="&lt;font face=&quot;helvetica&quot;&gt;缓存媒体增量媒资(redis)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="840" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="32tl-jol9LDixvjBe_lJ-48">
