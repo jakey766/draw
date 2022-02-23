@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T07:58:59.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="fOmocHqFgoqeXQljWhOV" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T08:02:15.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="4y0CyrJqsLVmW942y8tj" version="16.6.2" type="github">
   <diagram id="Uv13Z96FheGHAcUwnn_8" name="union">
     <mxGraphModel dx="1866" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,8 +88,8 @@
         <mxCell id="32tl-jol9LDixvjBe_lJ-35" value="&lt;font face=&quot;helvetica&quot;&gt;lm表入库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="350" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="32tl-jol9LDixvjBe_lJ-36" value="&lt;font face=&quot;helvetica&quot;&gt;生成redis分页数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="500" width="140" height="30" as="geometry" />
+        <mxCell id="32tl-jol9LDixvjBe_lJ-36" value="&lt;font face=&quot;helvetica&quot;&gt;全量分页数据(redis)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="500" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="32tl-jol9LDixvjBe_lJ-37" value="&lt;font face=&quot;helvetica&quot;&gt;清除失效数据&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="420" width="140" height="30" as="geometry" />
@@ -140,6 +140,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="770" y="220" as="sourcePoint" />
             <mxPoint x="770" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-48" value="&lt;font face=&quot;helvetica&quot;&gt;增量分页数据(redis)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="500" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="32tl-jol9LDixvjBe_lJ-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="450" as="sourcePoint" />
+            <mxPoint x="630" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32tl-jol9LDixvjBe_lJ-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="32tl-jol9LDixvjBe_lJ-48" target="32tl-jol9LDixvjBe_lJ-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="460" as="sourcePoint" />
+            <mxPoint x="630" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
